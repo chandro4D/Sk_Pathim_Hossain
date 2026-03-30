@@ -9,7 +9,7 @@ const Footer = () => {
 
                 <nav className="text-center">
                     <h6 className=" text-3xl bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500 font-semibold">SK Pathim Hossain</h6>
-                    <div className="flex lg:my-[20px] my-[20px] lg:ml-[620px] ml-[100px]">
+                    <div className="flex lg:my-[20px] my-[20px] lg:ml-[620px] ml-[50px]">
 
                         <div className=" text-black mr-[20px]">
                             <a href="https://github.com"><FaGithub className="w-[50px] h-[50px]" /></a>
@@ -23,7 +23,7 @@ const Footer = () => {
 
 
                     </div>
-                    <p className="text-rose-500">Copyright © ${new Date().getFullYear()} - All right reserved by SK Pathim Hossain</p>
+                    <p className="text-rose-500 lg:text-xl text-base">All right reserved by SK Pathim Hossain</p>
                 </nav>
 
 

@@ -50,10 +50,10 @@ const Navbar = () => {
     );
 
     return (
-        <nav className="fixed w-full z-50 bg-gradient-to-r from-indigo-500 to-pink-500 border-b-4 border-b-indigo-500">
-            <div className="flex justify-between items-center lg:px-[150px] px-5 py-4">
+        <nav className="fixed w-full lg:h-[75px] h-[65px] z-50 bg-gradient-to-r from-indigo-500 to-pink-500 border-b-4 border-b-indigo-500">
+            <div className="flex justify-between items-center lg:px-[150px] px-5 lg:py-4  py-2">
                 {/* Logo */}
-                <Link to="/" className="text-white font-black font-sans text-3xl ">
+                <Link to="/" className="text-white font-black font-sans lg:text-3xl text-2xl">
                     <span className="text-pink-300">SK</span> Pathim Hossain
                 </Link>
 
@@ -61,7 +61,7 @@ const Navbar = () => {
                 <div className="lg:hidden">
                     <button
                         onClick={() => setMenuOpen(!menuOpen)}
-                        className="text-white focus:outline-none"
+                        className="text-white  p-2 rounded-md transition duration-300"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +88,7 @@ const Navbar = () => {
 
             {/* Mobile Menu Dropdown */}
             {menuOpen && (
-                <ul className="lg:hidden bg-indigo-600/95 text-white flex flex-col items-start px-5 py-2 space-y-3">
+                <ul className="lg:hidden bg-black/95 text-white flex flex-col items-start px-5 py-2 space-y-3">
                     {Links}
                 </ul>
             )}

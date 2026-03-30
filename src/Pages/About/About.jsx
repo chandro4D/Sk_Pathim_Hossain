@@ -15,7 +15,7 @@ const About = () => {
     ];
 
     return (
-        <div className="bg-gradient-to-b from-indigo-50 to-white py-20">
+        <div className="bg-gradient-to-b from-indigo-50 to-white lg:py-20 py-10">
 
             {/* Intro */}
             <motion.div
@@ -24,9 +24,9 @@ const About = () => {
                 transition={{ duration: 1 }}
                 className="text-center px-4"
             >
-                <h3 className="text-3xl text-indigo-600 font-medium mb-2">About Me</h3>
-                <h2 className="text-5xl text-blue-500 font-bold mb-5">Welcome To My Portfolio</h2>
-                <p className="text-gray-600 text-lg leading-relaxed max-w-3xl mx-auto">
+                <h3 className="lg:text-4xl text-3xl text-indigo-600 lg:font-semibold font-bold mb-2">About Me</h3>
+                <h2 className="lg:text-5xl text-4xl text-center text-blue-500 font-bold mb-5">Welcome To My Portfolio</h2>
+                <p className="text-gray-600 text-lg text-center max-w-3xl mx-auto">
                     Hi! I’m SK Pathim Hossain, a passionate web developer from Khulna.
                     I specialize in building modern, responsive web applications with React,
                     JavaScript, Node.js, and MongoDB. I enjoy solving problems and bringing
@@ -74,10 +74,10 @@ const About = () => {
 
                 <motion.div
                     whileHover={{ scale: 1.05 }}
-                    className="bg-gradient-to-r from-pink-500 to-indigo-500 lg:w-[600px] w-full  shadow-2xl rounded-2xl backdrop-blur-lg border border-white/20 p-8 text-white"
+                    className="bg-gradient-to-r from-pink-500 to-indigo-500 lg:w-[600px] w-full   shadow-2xl rounded-2xl backdrop-blur-lg border border-white/20 p-8 text-white"
                 >
                     <h3 className="text-xl font-bold text-blue-200 mb-2">2023 - Present</h3>
-                    <h2 className="text-2xl font-semibold mb-1">
+                    <h2 className="lg:text-2xl text-base lg:font-semibold font-medium mb-1">
                         B.Sc. in Computer Science and Engineering
                     </h2>
                     <p className="text-gray-100">

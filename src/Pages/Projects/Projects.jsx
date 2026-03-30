@@ -51,7 +51,7 @@ const Projects = () => {
             </motion.div>
 
             {/* Project Cards */}
-            <div className="lg:flex lg:mt-[80px] mt-[40px] lg:mb-[100px] mb-[30px] flex-wrap justify-center gap-5 lg:ml-0 ml-[30px]">
+            <div className="lg:flex lg:mt-[80px] mt-[40px] lg:mb-[100px] mb-[30px] flex-wrap justify-center gap-5 lg:ml-0 ml-[0px] ">
                 {projectList.map((project, index) => (
                     <motion.div
                         key={index}
@@ -59,7 +59,7 @@ const Projects = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5 + index * 0.2 }}
                         whileHover={{ scale: 1.05 }}
-                        className={`card ${project.bg} lg:mb-0 mb-[30px] text-white w-96 shadow-2xl rounded-2xl cursor-pointer p-6 transition-transform duration-300`}
+                        className={`card ${project.bg} lg:mb-0 mb-[30px] text-white lg:w-96 w-[345px] shadow-2xl rounded-2xl cursor-pointer p-6 transition-transform duration-300`}
                     >
                         {/* Project Title & Description */}
                         <h2 className="text-2xl font-bold mb-3">{project.title}</h2>

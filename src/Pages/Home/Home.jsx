@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <div className="overflow-hidden lg:pt-0 pt-[50px]">
             <motion.div
-                className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 lg:h-[750px] h-[1000px]"
+                className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 lg:h-[750px] h-[920px]"
                 animate={{
                     backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"],
                 }}
@@ -47,7 +47,7 @@ const Home = () => {
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             transition={{ duration: 1.2 }}
-                            className="lg:text-xl text-base text-white w-[400px]  lg:w-[700px] leading-relaxed"
+                            className="lg:text-xl text-base text-white w-[300px]  lg:w-[700px] leading-relaxed"
                         >
                             Hi, I am SK Pathim Hossain, a passionate and dedicated web developer
                             specializing in React, JavaScript, and MongoDB. With a knack for creating
@@ -62,25 +62,25 @@ const Home = () => {
                             {/* DOWNLOAD BUTTON */}
                             <div>
                                 <a href="https://drive.google.com/file/d/1JyAL1ikqWFkgd_2MCbEGPI8Nm5kGtUWx/view?usp=drivesdk" download>
-                                    <button className="flex items-center gap-2 border border-white text-white text-lg px-5 py-2 rounded-full transition duration-300 hover:bg-white hover:text-indigo-600 hover:scale-105 shadow-lg">
+                                    <button className="flex items-center gap-2 border border-white text-white lg:text-lg text-sm lg:px-5 px-1 py-2 rounded-full transition duration-300 hover:bg-white hover:text-indigo-600 hover:scale-105 shadow-lg">
                                         Download CV <FiDownload />
                                     </button>
                                 </a>
                             </div>
 
                             {/* SOCIAL ICONS */}
-                            <div className="flex gap-5 ml-5">
+                            <div className="flex lg:gap-5 gap-1 ml-5">
 
                                 <a href="https://github.com">
-                                    <FaGithub className="w-[45px] h-[45px] text-white transition duration-300 hover:scale-125 hover:text-black hover:bg-white p-2 rounded-full" />
+                                    <FaGithub className=" lg:w-[45px] w-[50px] h-[50px] lg:h-[45px] text-white transition duration-300 hover:scale-125 hover:text-black hover:bg-white p-2 rounded-full" />
                                 </a>
 
                                 <a href="https://www.facebook.com/share/1ApJdoR9pj/">
-                                    <ImFacebook2 className="w-[45px] h-[45px] text-white transition duration-300 hover:scale-125 hover:bg-blue-600 p-2 rounded-full" />
+                                    <ImFacebook2 className="lg:w-[45px] w-[50px] h-[50px] lg:h-[45px] text-white transition duration-300 hover:scale-125 hover:bg-blue-600 p-2 rounded-full" />
                                 </a>
 
                                 <a href="https://www.linkedin.com/">
-                                    <ImLinkedin className="w-[45px] h-[45px] text-white transition duration-300 hover:scale-125 hover:bg-blue-800 p-2 rounded-full" />
+                                    <ImLinkedin className="lg:w-[45px] w-[50px] h-[50px] lg:h-[45px] text-white transition duration-300 hover:scale-125 hover:bg-blue-800 p-2 rounded-full" />
                                 </a>
 
                             </div>
@@ -88,12 +88,12 @@ const Home = () => {
                     </div>
 
                     {/* 🔥 RIGHT IMAGE */}
-                    <div className="lg:mt-[220px] mt-[50px] lg:ml-[130px] ml-[15px]">
+                    <div className="lg:mt-[220px] mt-[50px] lg:ml-[130px] ml-[2px]">
 
                         <motion.img
                             src="https://i.ibb.co/sv8fSMRF/IMG-4572.jpg"
                             alt=""
-                            className="rounded-2xl lg:h-[450px] lg:w-[350px] sm:h-[300px] w-[400px] shadow-2xl border-4 border-white/20"
+                            className="rounded-2xl lg:h-[450px] lg:w-[350px] sm:h-[300px] w-[300px] shadow-2xl border-4 border-white/20"
                             animate={{ y: [0, -20, 0] }}
                             transition={{ duration: 3, repeat: Infinity }}
                         />

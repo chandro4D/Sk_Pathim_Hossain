@@ -5,17 +5,17 @@ import { motion } from "framer-motion";
 
 const Contact = () => {
     return (
-        <div className="bg-gradient-to-r from-black via-gray-900 to-black lg:h-[1000px] h-[1150px] py-10">
+        <div className="bg-gradient-to-r from-black via-gray-900 to-black  lg:h-[1000px] h-[1100px] py-10">
             {/* Header */}
             <motion.div
                 initial={{ opacity: 0, y: -30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
             >
-                <h2 className="lg:text-5xl text-4xl font-semibold text-white lg:pt-28 pt-5 pb-3 text-center">
+                <h2 className="lg:text-5xl text-3xl font-semibold text-white lg:pt-28 pt-5 pb-3 text-center">
                     Let’s work together!
                 </h2>
-                <h4 className="text-3xl font-medium text-white mb-10 text-center">
+                <h4 className="lg:text-3xl text-2xl font-medium text-white mb-10 text-center">
                     Contact Me
                 </h4>
             </motion.div>
@@ -26,7 +26,7 @@ const Contact = () => {
                     initial={{ opacity: 0, x: -50 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8 }}
-                    className="bg-gradient-to-r from-purple-600 to-violet-500 rounded-xl lg:ml-0 ml-[15px] lg:w-[600px] w-[440px] h-[600px] shadow-2xl p-10"
+                    className="bg-gradient-to-r from-purple-600 to-violet-500 rounded-xl  lg:w-[600px] w-[340px] lg:h-[600px] h-[530px] shadow-2xl p-10"
                 >
                     <div className="flex gap-5">
                         <div className="flex flex-col gap-5">
@@ -58,21 +58,21 @@ const Contact = () => {
                     <div className="mt-10">
                         <textarea
                             placeholder="Message Here"
-                            className="input input-bordered input-info w-full h-[250px] hover:scale-105 transition-transform duration-300 p-3 resize-none"
+                            className="input input-bordered input-info w-full lg:h-[250px] h-[200px] hover:scale-105 transition-transform duration-300 p-3 resize-none"
                         />
                     </div>
 
                     <motion.button
                         whileHover={{ scale: 1.1, backgroundColor: "#7e22ce" }}
                         whileTap={{ scale: 0.95 }}
-                        className="btn text-white lg:ml-[180px] ml-[100px] bg-violet-900 text-xl mt-7 rounded-3xl p-2 shadow-lg transition-colors duration-300"
+                        className="btn text-white lg:ml-[180px] ml-[55px] bg-violet-900 text-xl mt-7 rounded-3xl p-2 shadow-lg transition-colors duration-300"
                     >
                         Send Message
                     </motion.button>
                 </motion.div>
 
                 {/* Contact Info */}
-                <div className="lg:ml-[150px] ml-[100px] mt-[50px] text-white space-y-10">
+                <div className="lg:ml-[150px] ml-[50px] mt-[50px] text-white space-y-10">
                     <motion.div
                         className="flex items-center gap-5"
                         initial={{ opacity: 0, x: 50 }}
