@@ -91,7 +91,7 @@ const Home = () => {
                     <div className="lg:mt-[220px] mt-[50px] lg:ml-[130px] ml-[15px]">
 
                         <motion.img
-                            src="https://i.ibb.co.com/sv8fSMRF/IMG-4572-jpg.jpg"
+                            src="https://i.ibb.co/sv8fSMRF/IMG-4572.jpg"
                             alt=""
                             className="rounded-2xl lg:h-[450px] lg:w-[350px] sm:h-[300px] w-[400px] shadow-2xl border-4 border-white/20"
                             animate={{ y: [0, -20, 0] }}
