@@ -50,7 +50,7 @@ const Home = () => {
                             className="lg:text-xl text-base text-white w-[400px]  lg:w-[700px] leading-relaxed"
                         >
                             Hi, I am SK Pathim Hossain, a passionate and dedicated web developer
-                            specializing in React, JavaScript, and MongoDB. With a knack for creating
+                            specializing in React, JavaScript, Node.js and MongoDB. With a knack for creating
                             dynamic, responsive, and user-friendly web applications. My expertise
                             spans front-end and back-end development, allowing me to build
                             seamless and efficient web experiences.
