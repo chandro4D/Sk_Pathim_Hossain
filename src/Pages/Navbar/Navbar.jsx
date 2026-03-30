@@ -53,7 +53,7 @@ const Navbar = () => {
         <nav className="fixed w-full z-50 bg-gradient-to-r from-indigo-500 to-pink-500 border-b-4 border-b-indigo-500">
             <div className="flex justify-between items-center lg:px-[150px] px-5 py-4">
                 {/* Logo */}
-                <Link to="/" className="text-white font-medium text-3xl">
+                <Link to="/" className="text-white font-black font-sans text-3xl ">
                     <span className="text-pink-300">SK</span> Pathim Hossain
                 </Link>
 

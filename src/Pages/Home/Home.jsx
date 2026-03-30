@@ -29,7 +29,7 @@ const Home = () => {
                             initial={{ opacity: 0, y: 40 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.8 }}
-                            className="lg:text-5xl text-3xl text-white font-bold mb-[10px]"
+                            className="lg:text-5xl text-3xl font-sans text-white font-bold mb-[10px]"
                         >
                             I'am Pathim Hossain
                         </motion.h1>
@@ -38,7 +38,7 @@ const Home = () => {
                             initial={{ opacity: 0, y: 40 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 1 }}
-                            className="text-pink-300 lg:text-4xl text-2xl font-black mb-3"
+                            className="text-pink-300 lg:text-4xl font-sans text-2xl font-black mb-3"
                         >
                             Web Developer
                         </motion.h1>
