@@ -29,9 +29,9 @@ const Home = () => {
                             initial={{ opacity: 0, y: 40 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.8 }}
-                            className="lg:text-5xl text-3xl font-sans text-white font-bold mb-[10px]"
+                            className="lg:text-5xl text-2xl font-sans text-white font-bold mb-[10px]"
                         >
-                            I'am Pathim Hossain
+                            I'Am Pathim Hossain
                         </motion.h1>
 
                         <motion.h1
@@ -88,7 +88,7 @@ const Home = () => {
                     </div>
 
                     {/* 🔥 RIGHT IMAGE */}
-                    <div className="lg:mt-[220px] mt-[50px] lg:ml-[130px] ml-[2px]">
+                    <div className="lg:mt-[220px] mt-[50px] lg:ml-[130px] ml-[8px]">
 
                         <motion.img
                             src="https://i.ibb.co/sv8fSMRF/IMG-4572.jpg"

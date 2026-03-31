@@ -8,7 +8,7 @@ const Footer = () => {
             <div className=" bg-gradient-to-r from-pink-500 via-purple-500 to-gray-900 text-base-content lg:p-10 p-6">
 
                 <nav className="text-center">
-                    <h6 className=" text-3xl bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500 font-semibold">SK Pathim Hossain</h6>
+                    <h6 className=" lg:text-4xl text-2xl  bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500 lg:font-black font-semibold">SK Pathim Hossain</h6>
                     <div className="flex lg:my-[20px] my-[20px] lg:ml-[620px] ml-[50px]">
 
                         <div className=" text-black mr-[20px]">
@@ -23,7 +23,7 @@ const Footer = () => {
 
 
                     </div>
-                    <p className="text-rose-500 lg:text-xl text-base">All right reserved by SK Pathim Hossain</p>
+                    <p className="text-rose-500 lg:text-base text-sm">All right reserved by © SK Pathim Hossain</p>
                 </nav>
 
 

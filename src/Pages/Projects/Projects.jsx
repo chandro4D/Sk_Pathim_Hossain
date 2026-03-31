@@ -59,7 +59,7 @@ const Projects = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5 + index * 0.2 }}
                         whileHover={{ scale: 1.05 }}
-                        className={`card ${project.bg} lg:mb-0 mb-[30px] text-white lg:w-96 w-[345px] shadow-2xl rounded-2xl cursor-pointer p-6 transition-transform duration-300`}
+                        className={`card ${project.bg} lg:mb-0 mb-[30px] text-white lg:w-96 w-[345px] lg:ml-0 ml-[8px] shadow-2xl rounded-2xl cursor-pointer p-6 transition-transform duration-300`}
                     >
                         {/* Project Title & Description */}
                         <h2 className="text-2xl font-bold mb-3">{project.title}</h2>

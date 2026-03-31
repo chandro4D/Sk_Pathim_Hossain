@@ -26,7 +26,7 @@ const Contact = () => {
                     initial={{ opacity: 0, x: -50 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8 }}
-                    className="bg-gradient-to-r from-purple-600 to-violet-500 rounded-xl  lg:w-[600px] w-[340px] lg:h-[600px] h-[530px] shadow-2xl p-10"
+                    className="bg-gradient-to-r from-purple-600 to-violet-500 rounded-xl lg:ml-0 ml-[8px] lg:w-[600px] w-[340px] lg:h-[600px] h-[530px] shadow-2xl p-10"
                 >
                     <div className="flex gap-5">
                         <div className="flex flex-col gap-5">
